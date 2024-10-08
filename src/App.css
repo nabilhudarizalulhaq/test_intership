@@ -1,0 +1,83 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif; /* Set font-family */
+    background-color: #f7fafc; /* Tailwind's bg-gray-100 */
+    margin: 0; /* Reset default margin */
+}
+
+header {
+    background-color: #f6e05e; /* Tailwind's bg-yellow-500 */
+    padding: 1rem; /* Tailwind's p-4 */
+}
+
+header img {
+    height: 50px; /* Set logo height */
+}
+
+nav a {
+    color: white; /* Set link color */
+    margin-right: 2rem; /* Tailwind's space-x-8 */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Tailwind's hover:underline */
+}
+
+main {
+    margin-top: 2rem; /* Tailwind's mt-8 */
+}
+
+.card {
+    background-color: white; /* Tailwind's bg-white */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tailwind's shadow-md */
+    border-radius: 0.5rem; /* Tailwind's rounded-lg */
+    padding: 2rem; /* Tailwind's p-8 */
+    text-align: center; /* Center align text */
+}
+
+h1 {
+    font-size: 1.5rem; /* Tailwind's text-2xl */
+    font-weight: 700; /* Tailwind's font-bold */
+    color: #38a169; /* Tailwind's text-green-600 */
+}
+
+p {
+    font-size: 1.25rem; /* Tailwind's text-xl */
+    color: #4a5568; /* Tailwind's text-gray-700 */
+    margin-top: 0.5rem; /* Tailwind's mt-2 */
+}
+
+form {
+    margin-top: 1.5rem; /* Tailwind's mt-6 */
+}
+
+label {
+    display: block; /* Block display for labels */
+    text-align: left; /* Left align text */
+    color: #4a5568; /* Tailwind's text-gray-700 */
+}
+
+select {
+    width: 100%; /* Tailwind's w-full */
+    margin-top: 0.25rem; /* Tailwind's mt-1 */
+    padding: 0.5rem; /* Tailwind's p-2 */
+    border: 1px solid #cbd5e0; /* Tailwind's border-gray-300 */
+    border-radius: 0.25rem; /* Tailwind's rounded */
+}
+
+button {
+    width: 100%; /* Tailwind's w-full */
+    background-color: #48bb78; /* Tailwind's bg-green-500 */
+    color: white; /* Button text color */
+    padding: 0.5rem; /* Tailwind's py-2 */
+    border-radius: 0.25rem; /* Tailwind's rounded */
+    margin-top: 1rem; /* Tailwind's mt-4 */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor for buttons */
+}
+
+button:hover {
+    background-color: #38a169; /* Darker green on hover */
+}
